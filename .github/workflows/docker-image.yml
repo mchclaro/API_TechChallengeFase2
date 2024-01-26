@@ -20,7 +20,7 @@ jobs:
       uses: docker/login-action@v3.0.0
       with:
         username: 'mchclaro'
-        password: ${{ secrets.MYSECRET }}
+        password: ${{ secrets.MYSECRETDOCKER }}
 
       
     - name: Build and push Docker images
