@@ -13,13 +13,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+    - name: Checkout code
+      uses: actions/checkout@v3
 
-      # Executando um comando com uma mensagem
-      - name: Step Mensagem Olá
-        run: echo Olá, esse é o tech challenge da fase 2 da pós-tech da FIAP
+    # Executando um comando com uma mensagem
+    - name: Step Mensagem Olá
+      run: echo Olá, esse é o tech challenge da fase 2 da pós-tech da FIAP
 
-        # Executando um comando com uma mensagem
-      - name: Step Mensagem Parabéns
-        run: echo Parabéns, desafio concluído!
+    # Executando um comando com uma mensagem
+    - name: Step Mensagem Parabéns
+      run: echo Parabéns, desafio concluído!
