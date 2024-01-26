@@ -1,0 +1,25 @@
+# Nome do meu WorkFlow
+name: CI / CD Pipeline TechChallenge Fase2
+
+# Quando que o WorkFlow será disparado
+on:
+  push:
+    branches: [ "main" ]
+    
+# Os jobs que o WorkFlow vai executar 
+jobs:
+  job_techchallenge_fase2:
+    name: Executando o job do Tech Challenge Fase 2
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Executando um comando com uma mensagem
+      - name: Step Mensagem Olá
+        run: echo Olá, esse é o tech challenge da fase 2 da pós-tech da FIAP
+
+        # Executando um comando com uma mensagem
+      - name: Step Mensagem Parabéns
+        run: echo Parabéns, desafio concluído!
