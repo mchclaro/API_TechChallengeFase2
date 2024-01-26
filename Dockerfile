@@ -7,7 +7,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["API_TechChallengeFase2/API_TechChallengeFase2.csproj", "API_TechChallengeFase2/"]
+COPY ["API_TechChallengeFase2\API_TechChallengeFase2\API_TechChallengeFase2.csproj", "API_TechChallengeFase2\API_TechChallengeFase2"]
 RUN dotnet restore "API_TechChallengeFase2/API_TechChallengeFase2.csproj"
 COPY . .
 WORKDIR "/src/API_TechChallengeFase2"
