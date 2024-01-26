@@ -19,13 +19,13 @@ jobs:
     - name: Docker Login
       uses: docker/login-action@v3.0.0
       with:
-          username: 'mchclaro'
-          password: ${{ secrets.MYSECRET }}
+        username: 'mchclaro'
+        password: ${{ secrets.MYSECRET }}
 
       
     - name: Build and push Docker images
       uses: docker/build-push-action@v5.1.0
       with:
-          context: .
-          tags: 'mchclaro/techchallenge:latest'
-          push: true
+        context: .
+        tags: 'mchclaro/techchallenge:latest'
+        push: true
