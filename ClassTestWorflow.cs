@@ -11,6 +11,5 @@ namespace API_TechChallengeFase2
         public int Id { get; set; }
 
         public int Valor { get; set; }
-        public int Desconto { get; set; }
     }
 }
