@@ -1,7 +1,7 @@
-# API criada para o Tech Challenge da FASE 2 da pós graduação em Arquitetura de Sistemas .NET com Azure da FIAP
+# Workflows criados para o Tech Challenge da FASE 2 da pós graduação em Arquitetura de Sistemas .NET com Azure da FIAP
 
 # Descrição
-Projeto com pipeline no github actions para que cada push feito no repositorio execute os workflow criado. Temos 2 worflow criado, um que printa as mensagens e o outro que atualiza e publica a imagem no docker hub.
+Projeto com pipeline no github actions para que cada push feito no repositorio execute os workflows criados. Temos 2 worflows criado, um que printa as mensagens e o outro que atualiza e publica a imagem no docker hub.
 
 # Link da imagem no Docker hub
 https://hub.docker.com/r/mchclaro/techchallenge/tags
